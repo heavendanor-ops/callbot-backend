@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gestión de Llamadas</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <img
+                src="../assets/logos/Logo.png"
+                class="logo-img"
+            >
+
+        </div>
+
+        <nav class="menu">
+
+        <a href="../index.html" title="Inicio">
+            <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a href="pages/llamadas.html" class="active">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+
+        <a href="#" title="Transportes">
+            <i class="fa-solid fa-truck"></i>
+        </a>
+
+        <a href="#" title="Analítica">
+            <i class="fa-solid fa-chart-line"></i>
+        </a>
+
+        <a href="#" title="Configuración">
+            <i class="fa-solid fa-gear"></i>
+        </a>
+
+    </nav>
+
+
+    </aside>
+
+    <main class="main">
+
+        <header class="navbar">
+
+            <h2>Gestión de Llamadas</h2>
+
+        </header>
+
+        <section class="content">
+
+            <div class="card">
+
+                <h2>Llamadas Programadas</h2>
+
+                <table class="operations-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Cliente</th>
+
+                            <th>Teléfono</th>
+
+                            <th>Pedido</th>
+
+                            <th>Estado</th>
+
+                            <th>Acción</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Juan Pérez</td>
+
+                            <td>3001234567</td>
+
+                            <td>ORD-001</td>
+
+                            <td>
+
+                                <span class="status pending">
+                                    Pendiente
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <button class="call-btn">
+                                    Llamar
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>María Gómez</td>
+
+                            <td>3019876543</td>
+
+                            <td>ORD-002</td>
+
+                            <td>
+
+                                <span class="status success">
+                                    Confirmado
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                Ver
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>
