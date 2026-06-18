@@ -1,6 +1,6 @@
-from database import engine, Base
-from routes.rutas import router
+from fastapi import FastAPI
 from callbot_backend.routes.rutas import router
+from callbot_backend.database import Base, engine
 
 app = FastAPI()
 

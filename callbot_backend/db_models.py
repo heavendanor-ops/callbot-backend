@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from database import Base
+from callbot_backend.database import Base
 
 class TransportadorDB(Base):
     __tablename__ = "transportadores"
