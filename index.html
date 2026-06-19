@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CallBot IA</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+    <div class="logo">
+
+        <img
+        src="assets/logos/Logo.png"
+        alt="CallBot IA"
+        class="logo-img">
+
+    </div>
+
+    <nav class="menu">
+
+        <a href="#" title="Inicio">
+            <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a href="pages/llamadas.html" title="Llamadas">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+
+        <a href="#" title="Transportes">
+            <i class="fa-solid fa-truck"></i>
+        </a>
+
+        <a href="#" title="Analítica">
+            <i class="fa-solid fa-chart-line"></i>
+        </a>
+
+        <a href="#" title="Configuración">
+            <i class="fa-solid fa-gear"></i>
+        </a>
+
+    </nav>
+
+</aside>
+
+    <main class="main">
+
+        <header class="navbar">
+
+            <div class="navbar-company">
+
+                <h2>TriCargo NHO Logistics</h2>
+
+                    <span>
+                        Sistema Inteligente de Confirmación de Entregas
+                  </span>
+
+            </div>
+
+        </header>
+
+        <section class="content">
+
+    <div class="operations-header">
+
+        <div>
+            <h1>Centro de Operaciones</h1>
+
+            <p>
+                Supervisión en tiempo real de llamadas,
+                entregas y confirmaciones.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="operations-grid">
+
+        <div class="card operation-card">
+
+            <i class="fa-solid fa-truck"></i>
+
+            <h2>248</h2>
+
+            <p>Entregas Programadas</p>
+
+        </div>
+
+        <div class="card operation-card">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <h2>37</h2>
+
+            <p>Llamadas Pendientes</p>
+
+        </div>
+
+        <div class="card operation-card">
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            <h2>196</h2>
+
+            <p>Confirmadas</p>
+
+        </div>
+
+        <div class="card operation-card">
+
+            <i class="fa-solid fa-triangle-exclamation"></i>
+
+            <h2>5</h2>
+
+            <p>Incidentes</p>
+
+        </div>
+
+    </div>
+
+    <div class="card flow-card">
+
+        <h2>Flujo Operativo del CallBot</h2>
+
+        <div class="workflow">
+
+            <div class="step">
+                Pedido
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                Llamada
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                Confirmación
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                Entrega
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Actividad Reciente</h2>
+
+        <br>
+
+        <div class="timeline">
+
+            <div class="event">
+                09:35 - Llamada realizada al cliente
+            </div>
+
+            <div class="event">
+                09:36 - Confirmación recibida
+            </div>
+
+            <div class="event">
+                09:42 - WhatsApp enviado
+            </div>
+
+            <div class="event">
+                09:50 - Reintento programado
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+    <h2>Operaciones en Curso</h2>
+
+    <table class="operations-table">
+
+        <thead>
+
+            <tr>
+
+                <th>Vehículo</th>
+
+                <th>Cliente</th>
+
+                <th>Estado</th>
+
+                <th>Acción</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>TR-001</td>
+
+                <td>Juan Pérez</td>
+
+                <td>
+                    <span class="status pending">
+                        En llamada
+                    </span>
+                </td>
+
+                <td>
+                    Ver
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>TR-002</td>
+
+                <td>María Gómez</td>
+
+                <td>
+                    <span class="status success">
+                        Confirmado
+                    </span>
+                </td>
+
+                <td>
+                    Ver
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>TR-003</td>
+
+                <td>Carlos Ruiz</td>
+
+                <td>
+                    <span class="status danger">
+                        Sin respuesta
+                    </span>
+                </td>
+
+                <td>
+                    Ver
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+<div class="card tracking-card">
+
+    <h2>Seguimiento de Entregas</h2>
+
+    <div class="tracking-list">
+
+        <div class="tracking-item">
+
+            <div class="tracking-header">
+
+                <span>TR-001</span>
+
+                <span>Confirmada</span>
+
+            </div>
+
+            <div class="progress-bar">
+
+                <div class="progress completed"></div>
+
+            </div>
+
+        </div>
+
+        <div class="tracking-item">
+
+            <div class="tracking-header">
+
+                <span>TR-002</span>
+
+                <span>Llamando</span>
+
+            </div>
+
+            <div class="progress-bar">
+
+                <div class="progress calling"></div>
+
+            </div>
+
+        </div>
+
+        <div class="tracking-item">
+
+            <div class="tracking-header">
+
+                <span>TR-003</span>
+
+                <span>Pendiente</span>
+
+            </div>
+
+            <div class="progress-bar">
+
+                <div class="progress pending-progress"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="card alerts-card">
+
+    <h2>Alertas Operativas</h2>
+
+    <div class="alert-item warning">
+
+        <strong>TR-002</strong>
+
+        Cliente no responde.
+
+    </div>
+
+    <div class="alert-item success">
+
+        <strong>TR-001</strong>
+
+        Entrega confirmada.
+
+    </div>
+
+    <div class="alert-item danger">
+
+        <strong>TR-003</strong>
+
+        Reintento requerido.
+
+    </div>
+
+</div>
+
+</section>
+
+    </main>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
