@@ -1,0 +1,25 @@
+:root{
+
+    --primary:#2563eb;
+    --primary-hover:#1d4ed8;
+
+    --sidebar:#0f172a;
+
+    --background:#f8fafc;
+
+    --card:#ffffff;
+
+    --success:#22c55e;
+    --warning:#f59e0b;
+    --danger:#ef4444;
+
+    --text:#0f172a;
+    --text-light:#64748b;
+
+    --border:#e2e8f0;
+
+    --shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    --radius:18px;
+}
