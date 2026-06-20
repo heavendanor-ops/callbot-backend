@@ -1,20 +1,12 @@
-from database import engine, Base
-from routes.rutas import router
+from fastapi import FastAPI
+from callbot_backend.database import engine, Base
 from callbot_backend.routes.rutas import router
 
 app = FastAPI()
 
-# 🚨 ESTO ES CLAVE PARA FRONTEND
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # en producción lo cambias
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+Base.metadata.create_all(bind=engine)
 
-# Rutas
-app.include_router(rutas.router)
+app.include_router(router)
 
 @app.get("/")
 def inicio():
