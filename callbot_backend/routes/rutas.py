@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from callbot_backend.database import SessionLocal
+from database import SessionLocal
 from callbot_backend.db_models import TransportadorDB
 from schemas.transportador import Transportador
 
