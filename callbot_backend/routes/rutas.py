@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from callbot_backend.schemas.transportador import Transportador
+from schemas.transportador import Transportador   # ya está bien, déjalo así
 
 router = APIRouter()
 
