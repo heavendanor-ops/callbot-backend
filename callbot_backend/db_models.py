@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from callbot_backend.database import Base
+from callbot_backend.database import Base   # 👈 ruta absoluta corregida
 
 class TransportadorDB(Base):
     __tablename__ = "transportadores"
