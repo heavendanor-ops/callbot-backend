@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from callbot_backend.routes import rutas
 from callbot_backend.database import Base, engine
-from models import db_models  # necesario para que SQLAlchemy registre el modelo
+import callbot_backend.db_models
 
 app = FastAPI()
 
