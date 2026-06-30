@@ -1,8 +1,5 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
-from database import SessionLocal
-from callbot_backend.db_models import TransportadorDB
-from schemas.transportador import Transportador
+from fastapi import APIRouter
+from schemas.transportador import Transportador   # ya está bien, déjalo así
 
 router = APIRouter()
 
